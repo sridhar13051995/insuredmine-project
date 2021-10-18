@@ -1,4 +1,39 @@
-# Sridhar
+Angular:-
+
+Angular version used 12
+
+Dependencies used listed with Version:- 
+
+"bootstrap": "^5.1.3",
+"ngx-bootstrap": "^7.1.0",
+"ngx-quill": "^13.0.0",
+"quill": "^1.3.7",
+"quill-mention": "^3.0.4",
+
+
+Brief:-
+
+Pages list:-
+Home
+Gallery
+About
+
+Home:-
+Image added and mention functionality implemented
+
+Gallery:-
+it's Private window logined member only can view. Listed some random images
+
+About:-
+Filled with some random content
+
+Login:-
+login popup implemented with username and password input field
+
+Guard, Subject, Router, Services used 
+
+
+# Insuredmine Sample Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
 
