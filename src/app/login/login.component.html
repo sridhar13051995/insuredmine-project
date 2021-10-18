@@ -1,0 +1,14 @@
+<div class="login-page">
+    <div class="form">
+        <input type="text" placeholder="username" [(ngModel)]="userData.name"/>
+        <input type="password" placeholder="password" [(ngModel)]="userData.password"/>
+          <div class="alert alert-danger" role="alert" *ngIf="PasswordError">
+            Please Enter User Name/Password 
+          </div>
+          <div class="alert alert-danger" role="alert" *ngIf="showerror">
+            User Name / Password is incorrect 
+          </div>
+        <button (click)="login()">login</button>
+    </div>
+    
+  </div>
