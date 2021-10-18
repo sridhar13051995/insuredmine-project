@@ -14,7 +14,7 @@ export class AuthGuardService implements CanActivate, CanActivateChild {
   constructor(private router: Router) {
     this.userData = localStorage.getItem('user');
 
-    if (this.userData != '[object Object]') {
+    if (this.userData != null) {
          this.isAuthucated = true;
     } else {
          this.isAuthucated = false;

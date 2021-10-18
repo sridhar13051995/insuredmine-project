@@ -51,8 +51,8 @@ export class AppComponent implements OnInit {
       this.buttonText = 'login';
       this.userName = 'Guest';
       this.isAuthenticated = false
-    } else {
       localStorage.clear()
+    } else {
       this.router.navigate(['login']);
     }
   }

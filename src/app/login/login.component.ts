@@ -51,7 +51,7 @@ export class LoginComponent implements OnInit,OnDestroy {
         .subscribe((user: any) => {
           if (user != null) {
             this.showerror = false;
-            localStorage.setItem('user',user);
+            localStorage.setItem('user',user.username);
             this.router.navigate(['/']);
             const event: IApplicationEvent = {
               name: 'USER_LOGIN_SUCEESS',
